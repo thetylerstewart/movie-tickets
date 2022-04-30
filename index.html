@@ -39,15 +39,27 @@
         </select>
       </div>
       <div>
-        <lable for="age">How old are you?</lable>
-        <input name="age" id="age">
+        <label for="age-select">Choose your Age:</label>
+        <select name="age" id="age-select">
+          <option value="">--Please choose your age--</option>
+          <option value="under-20">Under 20</option>
+          <option value="twenty-to-fifty">20 to 50</option>
+          <optoin value="over-fifty">Over 50</optoin>
+        </select>
       </div>
       <button type="submit">Submit</button>
-
     </form>
 
-
-  </div>
+    <div id="movie-cost">
+      <div>
+        <h2>Movie Ticket:</h2>
+        <ul id="movies">
+        </ul>
+      </div>
+      <div>
+        <p>Your movie will cost: <span class="price"></span></p>
+      </div>
+    </div>
 </body>
 
 </html>
